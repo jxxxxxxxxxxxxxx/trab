@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="trab.Master.Masterr"
+             xmlns:ini="clr-namespace:trab">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" Padding="30" BackgroundColor="Black">
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label Text="Pressione os Botões para navegar entre as páginas do projeto"/>
+                <Button Text="Inserir" Clicked="GoPagina1" BackgroundColor="Blue"/>
+                <Button Text="Lista" Clicked="GoPagina2" BackgroundColor="Orange"/>
+                <Button Text="Pesquisar" Clicked="GoPagina3" BackgroundColor="DimGray" />
+                <Button Text="Editar" Clicked="GoPagina4" BackgroundColor="Blue"/>
+                <Button Text="Excluir" Clicked="GoPagina5" BackgroundColor="Orange"/>
+                <Button Text="Sobre" Clicked="GoPagina6" BackgroundColor="DimGray" />
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <ini:MainPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

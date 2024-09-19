@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="trab.paginas.editar">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightGreen" Padding="30">
+            <Label Text="Alteração de cClientes da Academia" FontFamily="Times new roman"
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Large"
+                TextColor="DarkBlue"/>
+            <Label Text="Digite o CPF: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_cpf" FontSize="Medium"
+                TextColor="Blue"/>
+            <Label Text="Nome: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_nome" FontSize="Medium"
+                TextColor="Blue"/>
+            <Label Text="Endereço: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_ende" FontSize="Medium"
+                TextColor="Blue"/>
+            <Label Text="Telefone: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_fone" FontSize="Medium"
+                TextColor="Blue"/>
+            <Label Text="Idade: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_idade" FontSize="Medium"
+                TextColor="Blue"/>
+            <Button Text="Editar" x:Name="btn_editar" FontSize="Medium"
+                TextColor="RED" CornerRadius="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

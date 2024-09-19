@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="trab.paginas.inserir">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Lavender" Padding="30">
+            <Label Text="Inclusão de Clientes" FontFamily="Times new roman"    
+                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Large"
+                TextColor="Brown"/>
+            <Label Text="CPF: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_cpf"  FontSize="Medium" TextChanged="cpfMask"
+                TextColor="Red"/>
+            <Label Text="Nome: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_nome"  FontSize="Medium"
+                TextColor="Red"/>
+            <Label Text="Endereço: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_ende" FontSize="Medium"
+                TextColor="Red"/>
+            <Label Text="Fone: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_fone" FontSize="Medium"
+                TextColor="Red"/>
+            <Label Text="Idade: " FontSize="Medium"
+                TextColor="Blue"/>
+            <Entry x:Name="txt_idade" FontSize="Medium"
+                TextColor="Red"/>
+            <Button Text="Enviar" x:Name="btn_enviar" FontSize="Medium"
+                TextColor="DarkGreen" VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand" CornerRadius="20"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

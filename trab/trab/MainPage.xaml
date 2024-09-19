@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="trab.MainPage"
+             Title="Tela inicial">
+
+    <ContentPage.Content>
+        <StackLayout Padding="100" VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Seja bem-vindo(a) a academia de ginastica xxxxx" FontSize="Large"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+
+</ContentPage>
